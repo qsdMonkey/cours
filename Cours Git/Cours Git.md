@@ -19,7 +19,7 @@ Dans ce cours, nous allons découvrir les bases de **Git** pour simplifier notre
 ### 🚀 **Définition de Git**
 Git est un logiciel de **gestion de versions**. Imaginez un historien qui garde une trace de chaque modification de votre projet, permet de collaborer avec d’autres personnes et vous offre une "machine à remonter le temps" en cas de problème.  
 
-![GIT](https://e115.engr.ncsu.edu/git-and-github/version-control/)
+![GIT](git-logo.png)
 
 ```mermaid
 graph LR
@@ -39,7 +39,7 @@ graph LR
 | Sauvegarde              | Sauvegardez votre code dans un dépôt distant pour éviter de le perdre.               |
 | Gestion des branches    | Travaillez sur de nouvelles fonctionnalités sans risquer de casser le code principal. |
 
-![Collaboration Git](https://ubc-library-rc.github.io/intro-git/content/05_collab_on_github.html)
+![Collaboration Git](git-collaboration.png)
 
 ---
 
@@ -100,7 +100,7 @@ graph TD
     Modifications["Fichiers modifiés"] --> Staging["Zone de staging"] --> Commit["Commit enregistré"]
 ```
 
-![Commit Git](https://dev.to/maafaishal/better-git-commits-with-commitlint-g18https://example.com/images/git-commit.png)
+![Commit Git](git_commit.png)
 
 ---
 
@@ -144,7 +144,7 @@ VS Code intègre Git pour :
 - Voir les changements directement dans l’éditeur.  
 - Gérer vos commits, branches et conflits visuellement.  
 
-![Git dans VS Code](https://example.com/images/vscode-git.png)
+![Git dans VS Code](git+vscode.png)
 
 ---
 
@@ -179,7 +179,7 @@ Quand deux développeurs modifient le même fichier, des conflits surviennent. V
 - Accepter une version.  
 - Combiner les changements.  
 
-![Résolution de conflits VS Code](https://example.com/images/vscode-conflict-resolution.png)
+![Résolution de conflits VS Code](merge-conflict.png)
 
 ---
 
